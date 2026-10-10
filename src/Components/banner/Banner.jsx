@@ -7,7 +7,7 @@ const Banner = () => {
           {/* Banner Content */}
           <div className="lg:max-w-160 space-y-5">
             <button className="btn border-0 rounded-full bg-[#d9e0ff] text-[#8203fa]">New: AI-Powered Tools Available</button>
-            <h1 className="text-5xl lg:text-[72px] font-bold">
+            <h1 className="text-5xl lg:text-7xl font-bold">
               Supercharge Your <span className="bg-linear-to-r from-[#662df7] to-[#8c19f9] bg-clip-text text-transparent">Digital Workflow</span>
             </h1>
             <p className="max-w-125 text-lg text-gray-500">

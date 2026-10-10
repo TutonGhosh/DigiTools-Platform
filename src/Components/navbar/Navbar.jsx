@@ -1,5 +1,5 @@
 import logo from "../../assets/Logo and Icons/DigiTools.png";
-import cartIcon from "../../assets/products Image/shopping-cart.png"
+import cartIcon from "../../assets/Logo and Icons/shopping-cart.png"
 const Navbar = () => {
   return (
     <div className="max-w-[1600px] mx-auto">
