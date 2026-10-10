@@ -1,4 +1,5 @@
 import "./App.css";
+import InfoBadge from "./Components/banner/InfoBadge";
 import Banner from "./Components/banner/Banner";
 import Navbar from "./Components/navbar/Navbar";
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navbar></Navbar>
       <Banner></Banner>
+      <InfoBadge></InfoBadge>
     </>
   );
 }

@@ -1,7 +1,8 @@
 import bannerImg from "../../assets/Logo and Icons/banner.png"
 const Banner = () => {
     return (
-      <div className="my-10 lg:my-20 px-5">
+      <div className="max-w-[1600px] mx-auto">
+        <div className="my-10 lg:my-20 px-5">
         <div className="Banner flex flex-col-reverse gap-10 lg:flex-row items-center justify-between">
           {/* Banner Content */}
           <div className="lg:max-w-160 space-y-5">
@@ -15,8 +16,8 @@ const Banner = () => {
               today. Explore Products
             </p>
             <div className="flex items-center gap-3">
-                <button className="btn border-0 rounded-full text-white bg-linear-to-r from-[#662df7] to-[#8c19f9]">Explore Products</button>
-                <button className="btn border-0 rounded-full text-white bg-linear-to-r from-[#662df7] to-[#8c19f9]">Watch Demo</button>
+                <button className="btn border rounded-full text-white bg-linear-to-r from-[#662df7] to-[#8c19f9] hover:border hover:border-[#8c19f9] hover:bg-none hover:bg-white hover:text-black">Explore Products</button>
+                <button className="btn border rounded-full text-white bg-linear-to-r from-[#662df7] to-[#8c19f9] hover:border hover:border-[#8c19f9] hover:bg-none hover:bg-white hover:text-black">Watch Demo</button>
             </div>
           </div>
           {/* Banner Image */}
@@ -24,6 +25,7 @@ const Banner = () => {
             <img src={bannerImg} alt="" />
           </div>
         </div>
+      </div>
       </div>
     );
 };

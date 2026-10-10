@@ -2,7 +2,7 @@ import logo from "../../assets/Logo and Icons/DigiTools.png";
 import cartIcon from "../../assets/products Image/shopping-cart.png"
 const Navbar = () => {
   return (
-    <div className="">
+    <div className="max-w-[1600px] mx-auto">
       <div className="navbar">
         <div className="navbar-start">
           <div className="dropdown">
