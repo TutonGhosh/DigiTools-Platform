@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "AI Writing Pro",
-    "icon": "../src/assets/products Image/writing.png",
+    "icon": "https://i.ibb.co.com/VcpCh8d6/writing.png",
     "badge": "Best Seller",
     "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
     "price": 29,
@@ -13,7 +13,7 @@
   {
     "id": 2,
     "name": "Design Templates Pack",
-    "icon": "../src/assets/products Image/design tool.png",
+    "icon": "https://i.ibb.co.com/zhfcCtkY/design-tool.png",
     "badge": "Popular",
     "description": "2000+ premium templates for social media, presentations, and marketing materials.",
     "price": 49,
@@ -23,7 +23,7 @@
   {
     "id": 3,
     "name": "Premium Stock Assets",
-    "icon": "../src/assets/products Image/camera.png",
+    "icon": "https://i.ibb.co.com/qw6t7Kk/camera.png",
     "badge": "New",
     "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
     "price": 19,
@@ -33,7 +33,7 @@
   {
     "id": 4,
     "name": "Automation Toolkit",
-    "icon": "../src/assets/products Image/operations.png",
+    "icon": "https://i.ibb.co.com/pjbNbn4G/operations.png",
     "badge": "Popular",
     "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
     "price": 79,
@@ -43,7 +43,7 @@
   {
     "id": 5,
     "name": "Resume Builder Pro",
-    "icon": "../src/assets/products Image/portfolio.png",
+    "icon": "https://i.ibb.co.com/9HWSHFX7/portfolio.png",
     "badge": "New",
     "description": "Create professional resumes and cover letters that land interviews.",
     "price": 15,
@@ -53,7 +53,7 @@
   {
     "id": 6,
     "name": "Social Media Content Kit",
-    "icon": "../src/assets/products Image/social media.png",
+    "icon": "https://i.ibb.co.com/LzZtJZMZ/social-media.png",
     "badge": "Best Seller",
     "description": "Complete toolkit for creating engaging social media content across all platforms.",
     "price": 39,

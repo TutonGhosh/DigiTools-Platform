@@ -5,6 +5,8 @@ import Cart from "./Cart";
 
 const AllProducts = ({cardPromise}) => {
     const [selectType, setSelectType] = useState("products");
+    const [addCart, setAddCart] = useState([]);
+    const [countBill, setCountBill] = useState(0);
 
     return (
         <div className="max-w-[1600px] mx-auto">
@@ -15,10 +17,14 @@ const AllProducts = ({cardPromise}) => {
                     {/* Buttons */}
                     <div className="flex items-center justify-center join">
                         <button onClick={() => setSelectType("products")} className={`btn rounded-l-full join-item ${selectType === "products" ? "bg-linear-to-r from-[#662df7] to-[#8c19f9] text-white" : "bg-white"}`}>Products</button>
-                        <button onClick={() => setSelectType("cart")} className={`btn rounded-r-full join-item ${selectType === "cart" ? "bg-linear-to-r from-[#662df7] to-[#8c19f9] text-white" : "bg-white"}`}>Cart (0)</button>
+                        <button onClick={() => setSelectType("cart")} className={`btn rounded-r-full join-item ${selectType === "cart" ? "bg-linear-to-r from-[#662df7] to-[#8c19f9] text-white" : "bg-white"}`}>Cart ({addCart.length})</button>
                     </div>
-                    <Suspense>
-                        {selectType === "products" ? <ProductCard cardPromise={cardPromise}></ProductCard> : <Cart></Cart>}
+                    <Suspense fallback={
+                        <div className="my-10 lg:my-20">
+                            <span className="loading loading-ring loading-xl text-purple-600"></span>
+                        </div>
+                    }>
+                        {selectType === "products" ? <ProductCard cardPromise={cardPromise} addCart={addCart} setAddCart={setAddCart} countBill={countBill} setCountBill={setCountBill}></ProductCard> : <Cart addCart={addCart} setAddCart={setAddCart} countBill={countBill} setCountBill={setCountBill}></Cart>}
                     </Suspense>
                 </div>
             </div>

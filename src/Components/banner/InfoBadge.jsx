@@ -1,7 +1,7 @@
 
 const InfoBadge = () => {
     return (
-        <div className="max-w-full my-10 lg:my-20">
+        <div className="max-w-[1600px] mx-auto my-10 lg:my-20">
             <div className="h-32 lg:h-48 bg-linear-to-r from-[#662df7] to-[#8c19f9]">
                 <div className="h-full flex items-center justify-around gap-2">
                     <div className="flex flex-col items-center text-white space-y-2">
